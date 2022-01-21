@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/youtube"
+    android:title="Youtue"
+    android:icon="@drawable/youtube"/>
+    <item
+        android:id="@+id/navEbook"
+        android:title="Ebooks"
+        android:iconTint="@color/bg1"
+
+        android:icon="@drawable/ic_ebook"/>
+    <item
+        android:id="@+id/navWebsite"
+        android:title="Website"
+        android:icon="@drawable/global"/>
+    <item
+        android:id="@+id/navShare"
+        android:title="Share"
+        android:icon="@drawable/share"/>
+    <item
+        android:id="@+id/navRate"
+        android:title="Rate us"
+        android:icon="@drawable/star"/>
+    <item
+        android:id="@+id/navDeveloper"
+        android:title="Developer"
+        android:icon="@drawable/coding"/>
+    <item
+        android:id="@+id/navSettigs"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+
+
+
+
+</menu>
