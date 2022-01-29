@@ -12,6 +12,8 @@ import androidx.navigation.ui.NavigationUI;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,22 +21,23 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+import com.mehboob.ndfrag.ui.ebooks.EbookActivity;
 
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    private BottomNavigationView bottomNavigationView;
-    private NavController navController;
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle toggle;
     NavigationView navigationView;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Objects.requireNonNull(getSupportActionBar()).setTitle("DotAustere");
         setContentView(R.layout.activity_main);
-        bottomNavigationView = findViewById(R.id.bmv);
-        navController = Navigation.findNavController(this, R.id.frame_layout);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bmv);
+        NavController navController = Navigation.findNavController(this, R.id.frame_layout);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.navigationView);
         toggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.start, R.string.close);
@@ -50,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (toggle.onOptionsItemSelected(item)){
-            return true;
+        if (toggle.onOptionsItemSelected(item)) {
+                return true;
         }
         return true;
     }
@@ -61,22 +64,33 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.youtube:
-                Toast.makeText(getApplicationContext(), "Clicked " + item, Toast.LENGTH_SHORT).show();
+
+                intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Dot Austere");
+                intent.putExtra(Intent.EXTRA_TEXT, "https://www.youtube.com/channel/UCb8JIxH1gqSZYM03bcp_rKg");
+                startActivity(Intent.createChooser(intent, "Open With"));
                 break;
             case R.id.navEbook:
-                Toast.makeText(getApplicationContext(), " Clicked  " + item, Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, EbookActivity.class));
                 break;
             case R.id.navWebsite:
-                Toast.makeText(getApplicationContext(), "  Clicked "  + item, Toast.LENGTH_SHORT).show();
+                Uri webpage = Uri.parse("https://dotaustere.com/");
+                Intent webIntent = new Intent(Intent.ACTION_VIEW, webpage);
+                startActivity(webIntent);
                 break;
             case R.id.navShare:
-                Toast.makeText(getApplicationContext(), "Clicked"  + item, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "My app name");
+                intent.putExtra(Intent.EXTRA_TEXT, "com.android.facebook");
+                startActivity(Intent.createChooser(intent, "Choose Any one"));
                 break;
             case R.id.navRate:
-                Toast.makeText(getApplicationContext(), " Clicked"   + item, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), " Clicked" + item, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navDeveloper:
-                Toast.makeText(getApplicationContext(), " Clicked " + item, Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this,AboutDeveloperActivity.class));
                 break;
 
         }
@@ -86,9 +100,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public void onBackPressed() {
 
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)){
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
-        }else {
+        } else {
 
             super.onBackPressed();
 

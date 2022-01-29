@@ -34,7 +34,6 @@ import java.util.Locale;
 public class NoticeFragment extends Fragment {
 
     DatabaseReference databaseReference;
-    private StorageReference storageReference;
     private RecyclerView recyclerView;
     private ArrayList<NoticeModel> list;
     private ProgressBar progressBar;
@@ -79,9 +78,6 @@ public class NoticeFragment extends Fragment {
                     }
 //
                     mLinearLayoutManager = new LinearLayoutManager(getContext());
-                    //
-                    mLinearLayoutManager.setReverseLayout(true);
-                    mLinearLayoutManager.setStackFromEnd(true);
                     noticeAdapter = new NoticeAdapter(list, getContext());
                     noticeAdapter.notifyDataSetChanged();
                     progressBar.setVisibility(View.GONE);

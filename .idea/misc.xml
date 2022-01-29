@@ -3,19 +3,53 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/avatar_1.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/avatar_10.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/avatar_2.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic__pdf.xml" value="0.10260416666666666" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_about.xml" value="0.20923076923076922" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_coding.xml" value="0.10260416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_download.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_ebook.xml" value="0.10260416666666666" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_faculty.xml" value="0.15185185185185185" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_label.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_launcher.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_notices.xml" value="0.20923076923076922" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_pdf.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/drawable/ic_settings.xml" value="0.20923076923076922" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout-w1240dp/app_bar_developer.xml" value="0.121484375" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/activity_about_developer.xml" value="0.2" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/activity_ebook.xml" value="0.22" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/activity_ful_image.xml" value="0.13" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/activity_main.xml" value="0.17" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/activity_pdf_view.xml" value="0.18229166666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/app_bar_developer.xml" value="0.33" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/content_developer.xml" value="0.33" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/courses_layout.xml" value="0.22" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/custom_sliderimage.xml" value="0.1" />
-        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_about.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/ebook_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_faculty.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_gallery.xml" value="0.2" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_notice.xml" value="0.1" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_profile.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_reflow.xml" value="0.1" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/fragment_transform.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/gallery_sample.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/motice_sample.xml" value="0.22" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/nav_drawer_layout.xml" value="0.22" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/nav_header_developer.xml" value="0.25" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/no_data_sample.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/shimmer_ebook.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/layout/teaher_item_sample.xml" value="0.22" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/menu/bottom_menu.xml" value="0.22" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/menu/bottom_navigation.xml" value="0.1" />
         <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/menu/navigation_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/menu/overflow.xml" value="0.1" />
+        <entry key="..\:/Users/prime/AndroidStudioProjects/NDFRAG/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10260416666666666" />
       </map>
     </option>
   </component>

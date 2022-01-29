@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:id="@+id/youtube"
-    android:title="Youtue"
-    android:icon="@drawable/youtube"/>
+    <item
+        android:id="@+id/youtube"
+        android:icon="@drawable/ic_youtube"
+        android:title="Youtue" />
     <item
         android:id="@+id/navEbook"
-        android:title="Ebooks"
+        android:icon="@drawable/ic_ebook"
         android:iconTint="@color/bg1"
 
-        android:icon="@drawable/ic_ebook"/>
+        android:title="Ebooks" />
     <item
         android:id="@+id/navWebsite"
-        android:title="Website"
-        android:icon="@drawable/global"/>
+        android:icon="@drawable/ic_global"
+        android:title="Website" />
     <item
         android:id="@+id/navShare"
-        android:title="Share"
-        android:icon="@drawable/share"/>
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
     <item
         android:id="@+id/navRate"
-        android:title="Rate us"
-        android:icon="@drawable/star"/>
+        android:icon="@drawable/ic_star"
+        android:title="Rate us" />
     <item
         android:id="@+id/navDeveloper"
-        android:title="Developer"
-        android:icon="@drawable/coding"/>
+        android:icon="@drawable/ic_coding"
+        android:title="Developer" />
     <item
         android:id="@+id/navSettigs"
-        android:title="Settings"
-        android:icon="@drawable/ic_settings"/>
-
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
 
 
 

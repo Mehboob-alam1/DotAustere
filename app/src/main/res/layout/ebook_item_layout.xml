@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    app:cardElevation="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_pdf"
+            />
+        <TextView
+            android:id="@+id/pdfName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android development"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/text_color"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@string/regular"/>
+        <ImageView
+            android:id="@+id/btnEbookDownload"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_downward"
+            android:layout_marginLeft="-30dp"
+           />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

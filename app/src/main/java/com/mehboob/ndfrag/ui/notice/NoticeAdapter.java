@@ -1,7 +1,7 @@
 package com.mehboob.ndfrag.ui.notice;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
+import com.mehboob.ndfrag.FullImageActivity;
 import com.mehboob.ndfrag.R;
 import com.squareup.picasso.Picasso;
 
@@ -48,6 +48,11 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
         } catch (Exception e) {
             e.printStackTrace();
         }
+        holder.noticeImage.setOnClickListener(view -> {
+            Intent intent=new Intent(context, FullImageActivity.class);
+            intent.putExtra("image",model.getImage());
+            context.startActivity(intent);
+        });
 
 
     }

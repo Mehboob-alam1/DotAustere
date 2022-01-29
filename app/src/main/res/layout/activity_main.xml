@@ -43,8 +43,10 @@
       app:menu="@menu/navigation_drawer"
       android:fitsSystemWindows="true"
        app:headerLayout="@layout/nav_drawer_layout"
-      app:itemTextAppearance="?android:attr/textAppearanceMedium"
       app:itemIconTint="@color/purple_500"
+      app:itemTextAppearance="?android:attr/textAppearanceMedium"
       android:layout_gravity="start"/>
+<!--      -->
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

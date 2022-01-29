@@ -10,7 +10,9 @@
     <color name="text_color">#1B1A1A</color>
     <color name="title_color">#171616</color>
     <color name="bg1">#464744</color>
-    <color name="bg44">#A0E31B</color>
+    <color name="bg44">#BCD58A</color>
+    <color name="grey">#979696</color>
+    <color name="tint">#20D820</color>
 
 
 

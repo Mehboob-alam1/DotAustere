@@ -39,10 +39,10 @@ ImageView map;
         });
 
         sliderArrayList=new ArrayList<>();
-        sliderArrayList.add(new ModelSlider(R.drawable.bg_overlay));
-        sliderArrayList.add(new ModelSlider(R.drawable.bg_overlay));
-        sliderArrayList.add(new ModelSlider(R.drawable.bg_overlay));
-        sliderArrayList.add(new ModelSlider(R.drawable.bg_overlay));
+        sliderArrayList.add(new ModelSlider(R.drawable.dotlogo));
+        sliderArrayList.add(new ModelSlider(R.drawable.dotlogo));
+        sliderArrayList.add(new ModelSlider(R.drawable.dotlogo));
+        sliderArrayList.add(new ModelSlider(R.drawable.dotlogo));
         adapter=new SliderAdapter(sliderArrayList,getContext());
         sliderView=view.findViewById(R.id.imageSlider);
          sliderView.setSliderAdapter(adapter);
